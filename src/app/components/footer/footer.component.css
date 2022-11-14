@@ -1,0 +1,11 @@
+footer{
+  background-color: rgb(43, 41, 41);
+  position: relative;
+  margin-bottom: 0px;
+}
+
+span{
+  color: rgb(0, 136, 255);
+  font-size:larger;
+  margin-left: 15px;
+}

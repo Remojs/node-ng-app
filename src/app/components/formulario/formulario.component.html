@@ -1,12 +1,10 @@
 
-
 <div class="container text-center m-5">
     <h1>
         <p>
-            Estás en el componente Formulario
+            Estás en el componente FORMULARIO
         </p>
     </h1>
-
 </div>
 
 <section class="container" id="consultas">
@@ -15,68 +13,37 @@
             <div class="mb-3 row">
                 <label for="nombre" class="col-sm-2">Nombre:</label>
                 <div class="col-sm-10">
-                    <input 
-                    type="text" 
-                    name="nombre"
-                    id="nombre"
-                    formControlName="nombre"
-                    required>
+                    <input type="text" formControlName="nombre" name="nombre" id="nombre" required>
                 </div>
             </div>
             <div class="mb-3 row">
                 <label for="email" class="col-sm-2">Email:</label>
                 <div class="col-sm-10">
-                    <input 
-                    type="email" 
-                    name="email"
-                    id="email"
-                    formControlName="email"
-                    required>
+                    <input type="email" formControlName="email" name="email" id="email" required>
                 </div>
             </div>
             <div class="mb-3 row">
                 <label for="whatsapp" class="col-sm-2">Whatsapp:</label>
                 <div class="col-sm-10">
-                    <input 
-                    type="number" 
-                    name="whatsapp" 
-                    id="whatsapp"
-                    formControlName="whatsapp" 
-                    required>
+                    <input type="number" formControlName="whatsapp" name="whatsapp" id="whatsapp" required>
                 </div>
             </div>
             <div class="mb-3 row">
-                <label for="fecha_ingreso" class="col-sm-2">Fecha de Ingreso:</label>
+                <label for="ingreso" class="col-sm-2">Fecha de Ingreso:</label>
                 <div class="col-sm-10">
-                    <input 
-                    type="date" 
-                    name="fecha_ingreso" 
-                    id="fecha_ingreso" 
-                    formControlName="fecha_ingreso"
-                    required>
+                    <input type="date" formControlName="fecha_ingreso" name="fecha_ingreso" id="fecha_ingreso" required>
                 </div>
             </div>
             <div class="mb-3 row">
-                <label for="fecha_salida" class="col-sm-2">Fecha de Salida:</label>
+                <label for="salida" class="col-sm-2">Fecha de Salida:</label>
                 <div class="col-sm-10">
-                    <input 
-                    type="date" 
-                    name="fecha_salida" 
-                    id="fecha_salida"
-                    formControlName="fecha_salida" 
-                    required>
+                    <input type="date" formControlName="fecha_salida" name="fecha_salida" id="fecha_salida" required>
                 </div>
             </div>
             <div class="mb-3 row">
                 <label for="mensaje" class="col-sm-2">Mensaje:</label>
                 <div class="col-sm-10">
-                    <textarea 
-                    type="text"
-                    name="mensaje" 
-                    id="mensaje" 
-                    formControlName="mensaje"
-                    required>
-                </textarea>
+                    <textarea type="text" formControlName="mensaje" name="mensaje" id="mensaje" required></textarea>
                 </div>
             </div>
             <br>
@@ -84,3 +51,6 @@
         </div>
     </form>
 </section>
+
+
+
